@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-
     int I;
     float A, B, C;
     printf("Envie um número de 1 a 3: ");

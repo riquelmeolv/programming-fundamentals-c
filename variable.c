@@ -9,7 +9,7 @@ char[] = array of characters (size varies)
 bool = true or false (1 byte, requires <stdbool.h>)
 */
 
-int main(){
-
+int main()
+{
     return 0;
 }
