@@ -4,4 +4,4 @@ I created this repository primaliry to learn the fundamentals of C programming, 
 
 # Content
 
-This repository contains solved exercises that can be found in the book: Fundamentos da Programação de Computadores 3ªed.
+This repository contains solved exercises that can be found in the book: Fundamentos da Programação de Computadores 3ª ed.
