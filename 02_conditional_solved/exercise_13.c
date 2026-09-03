@@ -16,17 +16,17 @@ int main()
      if (salario < 500)
      {
      imposto = salario * (5.0 / 100.0);
-     printf("O imposto é: %.2f", imposto);
+     printf("O imposto é: %.2f\n", imposto);
      }
      else if(salario >= 500 && salario <=850)
      {
      imposto = salario * (10.0 / 100.0);
-     printf("O imposto é: %.2f", imposto);
+     printf("O imposto é: %.2f\n", imposto);
      }
      else
      {
      imposto = salario * (15.0 / 100.0);
-     printf("O imposto é: %.2f", imposto);
+     printf("O imposto é: %.2f\n", imposto);
      }
     }
     else if(op == 2)
@@ -36,22 +36,22 @@ int main()
      if(salario > 1500)
      {
      new = salario + 25;
-     printf("O novo salário é: %.2f", new);
+     printf("O novo salário é: %.2f\n", new);
      }
      else if(salario >= 750 && salario <= 1500)
      {
      new = salario + 50;
-     printf("O novo salário: %.2f", new);
+     printf("O novo salário: %.2f\n", new);
      }
      else if(salario >= 450 && salario < 750)
      {
      new = salario + 75;
-     printf("O novo salário é: %.2f", new);
+     printf("O novo salário é: %.2f\n", new);
      }
      else 
      {
      new = salario + 100;
-     printf("O novo salário é: %.2f", new);
+     printf("O novo salário é: %.2f\n", new);
      }
     }
     else if(op == 3)
@@ -60,16 +60,16 @@ int main()
      scanf("%f", &salario);
      if(salario <= 700)
      {
-     printf("Mal remunerado");
+     printf("Mal remunerado\n");
      }
      else
      {
-     printf("Bem remunerado");
+     printf("Bem remunerado\n");
      }
     }
     else
     {
-    printf("Opção Inválida"); 
+    printf("Opção Inválida\n"); 
     }
     return 0;
 }
