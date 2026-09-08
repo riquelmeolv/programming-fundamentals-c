@@ -9,7 +9,7 @@ int main()
     scanf("%d", &n2);
     scanf("%d", &n3);
 
-    media = (n1 + n2 + n3)/3;
+    media = (n1 + n2 + n3) / 3;
     printf("A media dos numeros é:%d\n", media);
 
     return 0;
