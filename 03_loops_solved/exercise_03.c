@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n, fat;
+    int n, x, fat;
 
     printf("Informe n: ");
     scanf("%d", &n);
@@ -10,12 +10,14 @@ int main()
     for(int i = 1; i <= n; i++)
     {
         fat = 1;
-        printf("%d: ", i);
-        for(int j = 1; j <= i; j++)
+        printf("Número %d: ", i);
+        scanf("%d", &x);
+        
+        for(int j = 1; j <= x; j++)
         {
             fat *= j;
         }
-        printf("%d\n", fat);
+        printf("Resposta: %d\n", fat);
     }
     return 0;
 }
