@@ -10,7 +10,7 @@ int main()
     scanf("%f", &escada);
     if(altura > escada)
     {
-        printf("Escada pequena\n");
+        printf("Escada pequena...\n");
         return 1;
     }
 

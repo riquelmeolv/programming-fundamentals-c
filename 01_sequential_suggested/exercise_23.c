@@ -10,7 +10,7 @@ int main()
 
     a3 = totalTriangulo - a1 - a2;
     
-    printf("O terceiro ângulo do triângulo é: %.2f\n", a3);
-    
+    printf("O terceiro ângulo do triângulo é: %.1f\n", a3);
+
     return 0;
 }
