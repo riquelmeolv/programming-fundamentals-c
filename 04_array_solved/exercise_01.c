@@ -9,10 +9,9 @@ int main()
         scanf("%d", &n[i]);
     }
 
-    int cont = 0;
     for(int j = 0; j < 9; j++)
     {
-        cont = 0;
+        int cont = 0;
         for(int a = 1; a <= n[j]; a++)
         {
             if(n[j] % a == 0)
@@ -21,7 +20,7 @@ int main()
             }
             if(n[j] == 1)
             {
-                printf("Poosição %d: %d é primo\n", j + 1, n[j]);
+                printf("Posição %d: %d é primo\n", j + 1, n[j]);
             }
         }
         if(cont == 2)
