@@ -19,16 +19,16 @@ int main()
     }
 
     if(cont == 2)
-        {
-            printf("Primo\n");
-        }
-        else if(cont > 2)
-        {
-            printf("Não primo\n");
-        }
-        else
-        {
-            printf("Número inválido\n");
-        }
+    {
+        printf("Primo\n");
+    }
+    else if(cont > 2)
+    {
+        printf("Não primo\n");
+    }
+    else
+    {
+        printf("Número inválido\n");
+    }
     return 0;
 }
