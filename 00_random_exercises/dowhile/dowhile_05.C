@@ -12,7 +12,7 @@ int main()
         cont++;
     }while (i > 0 && i < 100);
 
-    printf("Deu %d\n", cont);
+    printf("Deu %d\n", cont - 1);
     
     return 0;
 }
