@@ -12,5 +12,6 @@ int main()
     quantidadeConvite = custoTotal / valorConvite;
 
     printf("A quantidade de convites mínimas necessária é: %.1f\n", quantidadeConvite);
+    
     return 0;
 }
