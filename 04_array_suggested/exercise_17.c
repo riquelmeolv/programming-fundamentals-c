@@ -22,22 +22,30 @@ int main()
         }
         else
         {
-            C[i] = B[i];
+            C[i] = B[i - N];
         }
     }
     
+    // Bubble Sort
     int max = C[0], temp;
     for(int i = 0; i < N * 2 - 1; i++)
     {
         for(int j = 0; j < N * 2 - i; j++)
         {
-            if(C[j] > max)
+            if(C[j] > C[j + 1])
             {
-                max = C[j];
+                temp  = C[j];
+                C[j] = C[j + 1];
+                C[j + 1] = temp;
             }
         }
-        
-        
+    }
+
+    printf("Sorted vector.\n");
+
+    for(int i = 0; i < N * 2; i++)
+    {
+        printf("%d ", C[i]);
     }
     return 0;
 }
