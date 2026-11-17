@@ -21,7 +21,7 @@ int main()
 int sumall(int *vector)
 {
     int sum = 0;
-    for(int i =0; i < N; i++)
+    for(int i = 0; i < N; i++)
     {
         sum += vector[i];
     }
