@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Mostrar o nome se começar com A ou a
+
 int main(void)
 {
     char name[20];
