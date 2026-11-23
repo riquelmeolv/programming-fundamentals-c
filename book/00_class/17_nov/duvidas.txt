@@ -1,0 +1,14 @@
+- Como lidar com o \n no fgets
+
+int i = strlen(str);
+
+    // Remove o '\n', se ele foi armazenado
+    if (i > 0 && str[i - 1] == '\n')
+    {
+        str[i - 1] = '\0';
+        i--;
+    }
+
+    i--; // Está em \0, vai para o último índice útil.
+
+- Qual solução para não precisar dar espaço antes do (" %c")

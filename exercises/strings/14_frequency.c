@@ -14,7 +14,6 @@ int main(void)
         if(ch >= 'a' && ch <= 'z')
         {
             index = ch - 'a';
-            printf("%d\n", index);
             freq[index]++;
         }
         i++;
